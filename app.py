@@ -146,8 +146,7 @@ async def zalo_receive():
                     if attachment_type == "location":
                         location = attachment["payload"].get("coordinates")
                         if location:
-                            message_text += f"Vị trí latitude {
-                                location['latitude']} : vị trí longitude {location['longitude']}"
+                            message_text += f"Vị trí latitude {location['latitude']} : vị trí longitude {location['longitude']}"
 
         coversation_ID = await ChatWootController.getcoversation(zalo_id)
         if coversation_ID == 91:
