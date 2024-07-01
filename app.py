@@ -150,6 +150,7 @@ async def zalo_receive():
 
         coversation_ID = await ChatWootController.getcoversation(zalo_id)
         if coversation_ID == 91:
+            print("coversation_ID", coversation_ID)
 
             # re_contact_exists = await ChatWootController.searchcontact(zalo_id)
             # await createContant(zalo_id)
