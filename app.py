@@ -1,8 +1,10 @@
+import asyncio
 import json
 import os
 from flask import Flask, jsonify, request, redirect, session, url_for, Response
 import re
 from urllib.parse import quote
+import requests
 from werkzeug.middleware.proxy_fix import ProxyFix
 from packages.chatwootapi.service import WootHook
 from packages.zalo.utils import generate_code_challenge, generate_code_verifier, verify_oa_secret_key
@@ -10,7 +12,7 @@ from packages.zalo.utils import generate_code_challenge, generate_code_verifier,
 from packages.zalo.zaloController import Zalo4rdAppClient
 from dotenv import load_dotenv
 from models.zalo import Attachment, AttachmentPayload, Message, Recipient, Sender, ZaloMessage, Recipient
-from utils import EventMessageZaloOA, baseURLAPP  # Import load_dotenv
+from utils import EventMessageZaloOA, baseURLAPP, find_zaloid_value  # Import load_dotenv
 
 app = Flask(__name__)
 ZaloController = Zalo4rdAppClient()
@@ -23,12 +25,37 @@ appport = 5001
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 # secertKey = ""
 
+async def getcoversation(self, zalo_id):
+    try:
+        print("zalo_id", zalo_id)
+    # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)
 
+        url = f"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/{self.account_id}/conversations/filter"
+        header = {
+            'api_access_token': f'{os.getenv("ACCOUNT_ACCESS_TOKEN")}'
+        }
+        filter_value = {
+            "payload": [
+                {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id},
+                {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id}
+            ]
+        }
+
+        response = await asyncio.to_thread(requests.post, url, json=filter_value, headers=header)
+
+        response.raise_for_status()
+        print(response.json())
+        result = find_zaloid_value(response.json().get('payload'), zalo_id)
+        print(result.get("id", "91"))
+        return result.get("id", "91")
+
+    except Exception as err:
+        return 91
 @app.route('/')
 async def index():
     #a = await ChatWootController.inforchatwoot()
     #print(a)
-    coversation_ID = await ChatWootController.getcoversation("8528810653932220332")
+    coversation_ID = await getcoversation("8528810653932220332")
     print(coversation_ID)
     # conver_temp = await a.filter(account_id= 1, attribute_key= "status" , filter_operator= "Equal to" , query_operator=None , values = "12312312312")
     # print(conver_temp)
