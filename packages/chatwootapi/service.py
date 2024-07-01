@@ -151,6 +151,7 @@ class WootHook:
             return result.get("id", "91")
 
         except Exception as err:
+            print(f"Error: {err}")
             return 91
 
     async def process_message(self, content, type_message, conversation_id, attachments):
