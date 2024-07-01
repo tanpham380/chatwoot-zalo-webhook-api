@@ -587,7 +587,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "ChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\nasync def getcoversation( zalo_id):\n    try:\n        print(\"zalo_id\", zalo_id)\n    # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)\n        url = f\"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/{self.account_id}/conversations/filter\"",
+        "peekOfCode": "ChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\nasync def getcoversation( zalo_id):\n    try:\n        print(\"zalo_id\", zalo_id)\n    # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)\n        url = f\"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/1/conversations/filter\"",
         "detail": "app",
         "documentation": {}
     },
@@ -596,7 +596,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "appport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\nasync def getcoversation( zalo_id):\n    try:\n        print(\"zalo_id\", zalo_id)\n    # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)\n        url = f\"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/{self.account_id}/conversations/filter\"\n        header = {",
+        "peekOfCode": "appport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\nasync def getcoversation( zalo_id):\n    try:\n        print(\"zalo_id\", zalo_id)\n    # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)\n        url = f\"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/1/conversations/filter\"\n        header = {",
         "detail": "app",
         "documentation": {}
     },
@@ -605,7 +605,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\nasync def getcoversation( zalo_id):\n    try:\n        print(\"zalo_id\", zalo_id)\n    # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)\n        url = f\"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/{self.account_id}/conversations/filter\"\n        header = {\n            'api_access_token': f'{os.getenv(\"ACCOUNT_ACCESS_TOKEN\")}'\n        }",
+        "peekOfCode": "app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\nasync def getcoversation( zalo_id):\n    try:\n        print(\"zalo_id\", zalo_id)\n    # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)\n        url = f\"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/1/conversations/filter\"\n        header = {\n            'api_access_token': f'{os.getenv(\"ACCOUNT_ACCESS_TOKEN\")}'\n        }",
         "detail": "app",
         "documentation": {}
     },
