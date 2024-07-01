@@ -135,8 +135,7 @@ class WootHook:
             print("zalo_id", zalo_id)
         # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)
 
-            url = f"{os.getenv(
-                'CHATWOOT_URL')}/api/v1/accounts/{self.account_id}/conversations/filter"
+            url = f"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/{self.account_id}/conversations/filter"
             header = {
                 'api_access_token': f'{os.getenv("ACCOUNT_ACCESS_TOKEN")}'
             }
