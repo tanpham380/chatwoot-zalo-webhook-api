@@ -31,18 +31,22 @@ async def getcoversation( zalo_id):
     # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)
 
         url = f"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/1/conversations/filter"
+        
         header = {
             'api_access_token': f'{os.getenv("ACCOUNT_ACCESS_TOKEN")}'
         }
+        print("header", header)
+        print("url", url)
         filter_value = {
             "payload": [
                 {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id},
                 {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id}
             ]
         }
+        print("filter_value", filter_value)
 
         response = await asyncio.to_thread(requests.post, url, json=filter_value, headers=header)
-
+        
         response.raise_for_status()
         print(response.json())
         result = find_zaloid_value(response.json().get('payload'), zalo_id)
