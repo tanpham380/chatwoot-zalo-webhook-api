@@ -25,7 +25,7 @@ appport = 5001
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 # secertKey = ""
 
-async def getcoversation(self, zalo_id):
+async def getcoversation( zalo_id):
     try:
         print("zalo_id", zalo_id)
     # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)
