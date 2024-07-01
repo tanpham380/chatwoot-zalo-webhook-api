@@ -148,8 +148,9 @@ class WootHook:
             response = await asyncio.to_thread(requests.post, url, json=filter_value, headers=header)
 
             response.raise_for_status()
-
+            print(response.json())
             result = find_zaloid_value(response.json().get('payload'), zalo_id)
+            print(result.get("id", "91"))
             return result.get("id", "91")
 
         except Exception as err:
