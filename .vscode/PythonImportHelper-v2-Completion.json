@@ -570,7 +570,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app.secret_key = os.getenv(\"FLASK_SECRET_KEY\")\nChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    a = await ChatWootController.inforchatwoot()\n    print(a)",
+        "peekOfCode": "app.secret_key = os.getenv(\"FLASK_SECRET_KEY\")\nChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    #a = await ChatWootController.inforchatwoot()\n    #print(a)",
         "detail": "app",
         "documentation": {}
     },
@@ -579,7 +579,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "ChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    a = await ChatWootController.inforchatwoot()\n    print(a)\n    # conver_temp = await a.filter(account_id= 1, attribute_key= \"status\" , filter_operator= \"Equal to\" , query_operator=None , values = \"12312312312\")",
+        "peekOfCode": "ChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    #a = await ChatWootController.inforchatwoot()\n    #print(a)\n    coversation_ID = await ChatWootController.getcoversation(\"8528810653932220332\")",
         "detail": "app",
         "documentation": {}
     },
@@ -588,7 +588,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "appport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    a = await ChatWootController.inforchatwoot()\n    print(a)\n    # conver_temp = await a.filter(account_id= 1, attribute_key= \"status\" , filter_operator= \"Equal to\" , query_operator=None , values = \"12312312312\")\n    # print(conver_temp)",
+        "peekOfCode": "appport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    #a = await ChatWootController.inforchatwoot()\n    #print(a)\n    coversation_ID = await ChatWootController.getcoversation(\"8528810653932220332\")\n    print(coversation_ID)",
         "detail": "app",
         "documentation": {}
     },
@@ -597,7 +597,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    a = await ChatWootController.inforchatwoot()\n    print(a)\n    # conver_temp = await a.filter(account_id= 1, attribute_key= \"status\" , filter_operator= \"Equal to\" , query_operator=None , values = \"12312312312\")\n    # print(conver_temp)\n    # await ChatWootController.process_message(\"Hello World 4\", \"outgoing\",\"91\", None)\n    return \"hello world\"",
+        "peekOfCode": "app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    #a = await ChatWootController.inforchatwoot()\n    #print(a)\n    coversation_ID = await ChatWootController.getcoversation(\"8528810653932220332\")\n    print(coversation_ID)\n    # conver_temp = await a.filter(account_id= 1, attribute_key= \"status\" , filter_operator= \"Equal to\" , query_operator=None , values = \"12312312312\")\n    # print(conver_temp)",
         "detail": "app",
         "documentation": {}
     },

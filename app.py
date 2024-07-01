@@ -26,9 +26,10 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
 @app.route('/')
 async def index():
-    a = await ChatWootController.inforchatwoot()
-    print(a)
-
+    #a = await ChatWootController.inforchatwoot()
+    #print(a)
+    coversation_ID = await ChatWootController.getcoversation("8528810653932220332")
+    print(coversation_ID)
     # conver_temp = await a.filter(account_id= 1, attribute_key= "status" , filter_operator= "Equal to" , query_operator=None , values = "12312312312")
     # print(conver_temp)
 
