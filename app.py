@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request, redirect, session, url_for, Response
 import re
 from urllib.parse import quote
 from werkzeug.middleware.proxy_fix import ProxyFix
-from packages.chatwoot.woothook.service import WootHook
+from packages.chatwoot.service import WootHook
 from packages.zalo.utils import generate_code_challenge, generate_code_verifier, verify_oa_secret_key
 # For making HTTP requests to Zalo
 from packages.zalo.zaloController import Zalo4rdAppClient
