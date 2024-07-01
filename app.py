@@ -39,7 +39,6 @@ async def getcoversation( zalo_id):
         print("url", url)
         filter_value = {
             "payload": [
-                {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id},
                 {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id}
             ]
         }
