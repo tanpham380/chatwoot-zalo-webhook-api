@@ -132,7 +132,6 @@ class WootHook:
 
     async def getcoversation(self, zalo_id):
         try:
-            print("zalo_id", zalo_id)
         # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)
 
             url = f"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/{self.account_id}/conversations/filter"
@@ -141,17 +140,14 @@ class WootHook:
             }
             filter_value = {
                 "payload": [
-                    {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id},
                     {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id}
                 ]
             }
 
-            response = await asyncio.to_thread(requests.post, url, json=filter_value, headers=header)
+            response = requests.post(url, json=filter_value, headers=header)
 
             response.raise_for_status()
-            print(response.json())
             result = find_zaloid_value(response.json().get('payload'), zalo_id)
-            print(result.get("id", "91"))
             return result.get("id", "91")
 
         except Exception as err:

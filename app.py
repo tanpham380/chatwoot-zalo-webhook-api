@@ -27,7 +27,6 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
 async def getcoversation( zalo_id):
     try:
-        print("zalo_id", zalo_id)
     # response = await self.chatwoot.conversations.list(account_id=1, inbox_id=4)
 
         url = f"{os.getenv('CHATWOOT_URL')}/api/v1/accounts/1/conversations/filter"
@@ -35,16 +34,13 @@ async def getcoversation( zalo_id):
         header = {
             'api_access_token': f'{os.getenv("ACCOUNT_ACCESS_TOKEN")}'
         }
-        print("header", header)
-        print("url", url)
+
         filter_value = {
-            "payload": [
-                {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id}
-            ]
+            "payload": [{"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id}]
         }
         print("filter_value", filter_value)
 
-        response = await requests.post(url, json=filter_value, headers=header)
+        response = requests.post(url, json=filter_value, headers=header)
         print(response)
         response.raise_for_status()
         print(response.json())
