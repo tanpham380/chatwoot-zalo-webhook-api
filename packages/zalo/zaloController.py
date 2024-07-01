@@ -24,8 +24,7 @@ class Zalo4rdAppClient:
         set_key(dotenv_path, key, value)
 
     def getAuthUrl(self, url, code_verifier, state):
-        login_endpoint = f"{self.LoginUrl}?app_id={os.getenv('ZALO_APP_ID')}&redirect_uri={
-            url}&code_challenge={code_verifier}&state={state}"
+        login_endpoint = f"{self.LoginUrl}?app_id={os.getenv('ZALO_APP_ID')}&redirect_uri={url}&code_challenge={code_verifier}&state={state}"
         return login_endpoint
 
     def get_access_token(self, code, code_verifier):
