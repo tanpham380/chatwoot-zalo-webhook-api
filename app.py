@@ -49,6 +49,7 @@ async def getcoversation( zalo_id):
         return result.get("id", "91")
 
     except Exception as err:
+        print(err)
         return 91
 @app.route('/')
 async def index():
