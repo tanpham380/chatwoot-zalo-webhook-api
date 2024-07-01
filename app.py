@@ -46,7 +46,7 @@ async def getcoversation( zalo_id):
         print("filter_value", filter_value)
 
         response = await asyncio.to_thread(requests.post, url, json=filter_value, headers=header)
-        
+        print(response)
         response.raise_for_status()
         print(response.json())
         result = find_zaloid_value(response.json().get('payload'), zalo_id)
