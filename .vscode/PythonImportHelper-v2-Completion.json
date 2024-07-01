@@ -257,10 +257,10 @@
     },
     {
         "label": "WootHook",
-        "importPath": "packages.chatwoot.service",
-        "description": "packages.chatwoot.service",
+        "importPath": "packages.chatwootapi.service",
+        "description": "packages.chatwootapi.service",
         "isExtraImport": true,
-        "detail": "packages.chatwoot.service",
+        "detail": "packages.chatwootapi.service",
         "documentation": {}
     },
     {
@@ -451,10 +451,10 @@
     {
         "label": "WootHook",
         "kind": 6,
-        "importPath": "packages.chatwoot.service",
-        "description": "packages.chatwoot.service",
+        "importPath": "packages.chatwootapi.service",
+        "description": "packages.chatwootapi.service",
         "peekOfCode": "class WootHook:\n    def __init__(self):\n        self.chatwoot = AsyncChatwoot(\n            chatwoot_url=os.getenv('CHATWOOT_URL'),\n            access_key=os.getenv('ACCOUNT_ACCESS_TOKEN'),\n        )\n        self.account_id = 1\n    async def inforchatwoot(self):\n        # return self.chatwoot.messages\n        return self.chatwoot.messages",
-        "detail": "packages.chatwoot.service",
+        "detail": "packages.chatwootapi.service",
         "documentation": {}
     },
     {
