@@ -1,0 +1,13 @@
+services:
+  pgadmin:
+    image: 'docker.io/dpage/pgadmin4:latest'
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "thanhtan2136@huongnghiepaau.com"
+      PGADMIN_DEFAULT_PASSWORD: "@dm1n@HNAAu"
+    ports:
+      - 15080:80
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin/
+
+volumes:
+  pgadmin-data:

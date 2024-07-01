@@ -32,7 +32,8 @@ async def index():
     # conver_temp = await a.filter(account_id= 1, attribute_key= "status" , filter_operator= "Equal to" , query_operator=None , values = "12312312312")
     # print(conver_temp)
 
-    # await ChatWootController.process_message("Hello World 4", "outgoing","91", None)
+    # await ChatWootCon troller.process_message("Hello World 4", "outgoing","91", None)
+    
 
     return "hello world"
 
