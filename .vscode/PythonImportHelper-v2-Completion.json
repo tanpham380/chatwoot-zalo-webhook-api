@@ -1,0 +1,694 @@
+[
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncChatwoot",
+        "importPath": "woot",
+        "description": "woot",
+        "isExtraImport": true,
+        "detail": "woot",
+        "documentation": {}
+    },
+    {
+        "label": "find_zaloid_value",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_file_for_chatwoot",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "EventMessageZaloOA",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "baseURLAPP",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "utils",
+        "importPath": "email",
+        "description": "email",
+        "isExtraImport": true,
+        "detail": "email",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "set_key",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "quote",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "ProxyFix",
+        "importPath": "werkzeug.middleware.proxy_fix",
+        "description": "werkzeug.middleware.proxy_fix",
+        "isExtraImport": true,
+        "detail": "werkzeug.middleware.proxy_fix",
+        "documentation": {}
+    },
+    {
+        "label": "WootHook",
+        "importPath": "packages.chatwoot.woothook.service",
+        "description": "packages.chatwoot.woothook.service",
+        "isExtraImport": true,
+        "detail": "packages.chatwoot.woothook.service",
+        "documentation": {}
+    },
+    {
+        "label": "generate_code_challenge",
+        "importPath": "packages.zalo.utils",
+        "description": "packages.zalo.utils",
+        "isExtraImport": true,
+        "detail": "packages.zalo.utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_code_verifier",
+        "importPath": "packages.zalo.utils",
+        "description": "packages.zalo.utils",
+        "isExtraImport": true,
+        "detail": "packages.zalo.utils",
+        "documentation": {}
+    },
+    {
+        "label": "verify_oa_secret_key",
+        "importPath": "packages.zalo.utils",
+        "description": "packages.zalo.utils",
+        "isExtraImport": true,
+        "detail": "packages.zalo.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Zalo4rdAppClient",
+        "importPath": "packages.zalo.zaloController",
+        "description": "packages.zalo.zaloController",
+        "isExtraImport": true,
+        "detail": "packages.zalo.zaloController",
+        "documentation": {}
+    },
+    {
+        "label": "Attachment",
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "isExtraImport": true,
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "AttachmentPayload",
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "isExtraImport": true,
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "isExtraImport": true,
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "Recipient",
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "isExtraImport": true,
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "Sender",
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "isExtraImport": true,
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "ZaloMessage",
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "isExtraImport": true,
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "Recipient",
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "isExtraImport": true,
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "mimetypes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mimetypes",
+        "description": "mimetypes",
+        "detail": "mimetypes",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
+        "label": "coordinates",
+        "kind": 6,
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "peekOfCode": "class coordinates:\n    latitude : str = None\n    longitude: str = None\n@dataclass\nclass AttachmentPayload:\n    thumbnail: Optional[str] = None\n    coordinate: Optional[coordinates] = None\n    url: Optional[str] = None\n    id: Optional[str] = None\n@dataclass",
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "AttachmentPayload",
+        "kind": 6,
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "peekOfCode": "class AttachmentPayload:\n    thumbnail: Optional[str] = None\n    coordinate: Optional[coordinates] = None\n    url: Optional[str] = None\n    id: Optional[str] = None\n@dataclass\nclass Attachment:\n    id : str = None\n    type: Optional[str] = None\n    payload: Optional[AttachmentPayload] = None",
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "Attachment",
+        "kind": 6,
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "peekOfCode": "class Attachment:\n    id : str = None\n    type: Optional[str] = None\n    payload: Optional[AttachmentPayload] = None\n@dataclass\nclass Message:\n    msg_id: str = None\n    text: str = None\n    attachments: Optional[List[Attachment]] = None\n@dataclass",
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "peekOfCode": "class Message:\n    msg_id: str = None\n    text: str = None\n    attachments: Optional[List[Attachment]] = None\n@dataclass\nclass Recipient:\n    id: str\n@dataclass\nclass Sender:\n    id: str",
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "Recipient",
+        "kind": 6,
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "peekOfCode": "class Recipient:\n    id: str\n@dataclass\nclass Sender:\n    id: str\n@dataclass\nclass ZaloMessage:\n    app_id: Optional[str] = None\n    event_name: Optional[str] = None\n    user_id_by_app: Optional[str] = None",
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "Sender",
+        "kind": 6,
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "peekOfCode": "class Sender:\n    id: str\n@dataclass\nclass ZaloMessage:\n    app_id: Optional[str] = None\n    event_name: Optional[str] = None\n    user_id_by_app: Optional[str] = None\n    timestamp: Optional[str] = None\n    sender: Sender = field(default_factory=Sender)\n    recipient: Recipient = field(default_factory=Recipient)",
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "ZaloMessage",
+        "kind": 6,
+        "importPath": "models.zalo",
+        "description": "models.zalo",
+        "peekOfCode": "class ZaloMessage:\n    app_id: Optional[str] = None\n    event_name: Optional[str] = None\n    user_id_by_app: Optional[str] = None\n    timestamp: Optional[str] = None\n    sender: Sender = field(default_factory=Sender)\n    recipient: Recipient = field(default_factory=Recipient)\n    message: Optional[Message] = None\n    recipient: Recipient = field(default_factory=Recipient)\n#             zalo_message = ZaloMessage(",
+        "detail": "models.zalo",
+        "documentation": {}
+    },
+    {
+        "label": "WootHook",
+        "kind": 6,
+        "importPath": "packages.chatwoot.woothook.service",
+        "description": "packages.chatwoot.woothook.service",
+        "peekOfCode": "class WootHook:\n    def __init__(self):\n        self.chatwoot = AsyncChatwoot(\n            chatwoot_url=os.getenv('CHATWOOT_URL'),\n            access_key=os.getenv('ACCOUNT_ACCESS_TOKEN'),\n        )\n        self.account_id = 1\n    async def inforchatwoot(self):\n        # return self.chatwoot.messages\n        return self.chatwoot.messages",
+        "detail": "packages.chatwoot.woothook.service",
+        "documentation": {}
+    },
+    {
+        "label": "APIException",
+        "kind": 6,
+        "importPath": "packages.zalo.apiException",
+        "description": "packages.zalo.apiException",
+        "peekOfCode": "class APIException(Exception):\n    def __init__(self, message, code=None, method=''):\n        if code == 400:\n            error_400 = \"Error 400 HTTP method %s is not supported by this URL\" % method\n            super(APIException, self).__init__(error_400)\n        elif code == 404:\n            super(APIException, self).__init__(\"Error 404 Not Found\")\n        else:\n            super(APIException, self).__init__(message)",
+        "detail": "packages.zalo.apiException",
+        "documentation": {}
+    },
+    {
+        "label": "generate_code_verifier",
+        "kind": 2,
+        "importPath": "packages.zalo.utils",
+        "description": "packages.zalo.utils",
+        "peekOfCode": "def generate_code_verifier(length=43):\n    \"\"\"\n    Generates a high-entropy cryptographic random string (code verifier).\n    The length of the string should be between 43 and 128 characters.\n    \"\"\"\n    return base64.urlsafe_b64encode(os.urandom(length)).decode('utf-8').rstrip('=')\ndef generate_code_challenge(code_verifier):\n    \"\"\"\n    Creates a code challenge derived from the code verifier using SHA-256 and base64-url encoding.\n    \"\"\"",
+        "detail": "packages.zalo.utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_code_challenge",
+        "kind": 2,
+        "importPath": "packages.zalo.utils",
+        "description": "packages.zalo.utils",
+        "peekOfCode": "def generate_code_challenge(code_verifier):\n    \"\"\"\n    Creates a code challenge derived from the code verifier using SHA-256 and base64-url encoding.\n    \"\"\"\n    sha256_hash = hashlib.sha256(code_verifier.encode('ascii')).digest()\n    base64_encoded = base64.urlsafe_b64encode(sha256_hash).decode('ascii').rstrip('=')\n    return base64_encoded\ndef generate_signature(json_input, api_key, request_body):\n    \"\"\"\n    Generates a SHA256 signature from a dictionary of data and an API key.",
+        "detail": "packages.zalo.utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_signature",
+        "kind": 2,
+        "importPath": "packages.zalo.utils",
+        "description": "packages.zalo.utils",
+        "peekOfCode": "def generate_signature(json_input, api_key, request_body):\n    \"\"\"\n    Generates a SHA256 signature from a dictionary of data and an API key.\n    Args:\n        data (dict): The data to be included in the signature.\n        api_key (str): The API key to be used for the signature.\n    Returns:\n        str: The generated signature as a hexadecimal string.\n    \"\"\"\n    app_id = json_input['app_id']",
+        "detail": "packages.zalo.utils",
+        "documentation": {}
+    },
+    {
+        "label": "verify_oa_secret_key",
+        "kind": 2,
+        "importPath": "packages.zalo.utils",
+        "description": "packages.zalo.utils",
+        "peekOfCode": "def verify_oa_secret_key(json_data, headers, request_body):\n    \"\"\"Verify the Zalo webhook signature.\"\"\"\n    try:\n        secret_key = os.getenv(\"ZALO_WEBHOOK_VERIFY_TOKEN\")\n        if not secret_key:\n            return False\n        calculated_mac = generate_signature(json_data, secret_key, request_body)\n        received_mac = headers.get(\"X-ZEvent-Signature\", \"\").lower()  # Case-insensitive\n        if calculated_mac == received_mac:\n            return True",
+        "detail": "packages.zalo.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Zalo4rdAppClient",
+        "kind": 6,
+        "importPath": "packages.zalo.zaloController",
+        "description": "packages.zalo.zaloController",
+        "peekOfCode": "class Zalo4rdAppClient:\n    def __init__(self):\n        self.authCodeUrl = 'https://oauth.zaloapp.com/v4/oa/access_token'\n        self.OAAPIUrl = 'https://openapi.zalo.me/v2.0/oa/getoa'\n        self.LoginUrl = 'https://oauth.zaloapp.com/v4/oa/permission'\n        load_dotenv()\n        self.access_token = os.getenv('ACCESS_TOKEN')\n        self.refresh_token = os.getenv('REFRESH_TOKEN')\n        self.token_expires_at = float(os.getenv('TOKEN_EXPIRES_AT', 0))\n    def update_env_file(self, key, value):",
+        "detail": "packages.zalo.zaloController",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def login():\n    base_url = baseURLAPP(request, \"zalokey\")\n    encoded_base_url = quote(base_url, safe='')\n    code_verifier = generate_code_verifier()\n    session['code_verifier'] = code_verifier\n    code_challenge = generate_code_challenge(code_verifier)\n    # print(code_challenge)\n    session['state'] = session.get(\"state\", None)\n    if session['state'] is None:\n        session['state'] = code_challenge",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "zalo_success",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def zalo_success():\n    code_challenge = request.args.get('code_challenge', \"\")\n    code = request.args.get('code', \"\")\n    state = request.args.get('state', \"\")\n    oa_id = request.args.get('oa_id')\n    if not code_challenge or not code or not state or not oa_id:\n        return \"Authentication error (missing secret key or state)\", 400\n    if code_challenge != session['code_challenge'] or state != session['state']:\n        return \"Zalo Login Failed for code challenge or state mismatch\"\n    else:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "zalo_access_OAInformation",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def zalo_access_OAInformation():\n    access_token = request.args.get('access_token')\n    if not access_token:\n        return \"Missing access token\", 400\n    oa_info = ZaloController.getInforOA(access_token)\n    return oa_info\n@app.route('/zalo/access_UserInformation')\ndef zalo_access_UserInformation():\n    uid = request.args.get('uid')\n    user_info = ZaloController.getInformationUser(uid)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "zalo_access_UserInformation",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def zalo_access_UserInformation():\n    uid = request.args.get('uid')\n    user_info = ZaloController.getInformationUser(uid)\n    return user_info\n@app.route('/zalo/receive', methods=['GET', 'POST'])\nasync def zalo_receive():\n    if request.method == 'GET':\n        return Response(\"Event received\", status=200)\n    elif request.method == 'POST':\n        data = request.get_json(force=True, silent=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\nZaloController = Zalo4rdAppClient()\nload_dotenv()\n# Set a secret key for session management\napp.secret_key = os.getenv(\"FLASK_SECRET_KEY\")\nChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "ZaloController",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "ZaloController = Zalo4rdAppClient()\nload_dotenv()\n# Set a secret key for session management\napp.secret_key = os.getenv(\"FLASK_SECRET_KEY\")\nChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.secret_key",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.secret_key = os.getenv(\"FLASK_SECRET_KEY\")\nChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    a = await ChatWootController.inforchatwoot()\n    print(a)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "ChatWootController",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "ChatWootController = WootHook()\nappport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    a = await ChatWootController.inforchatwoot()\n    print(a)\n    # conver_temp = await a.filter(account_id= 1, attribute_key= \"status\" , filter_operator= \"Equal to\" , query_operator=None , values = \"12312312312\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "appport",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "appport = 5001\n# Apply ProxyFix middleware\napp.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    a = await ChatWootController.inforchatwoot()\n    print(a)\n    # conver_temp = await a.filter(account_id= 1, attribute_key= \"status\" , filter_operator= \"Equal to\" , query_operator=None , values = \"12312312312\")\n    # print(conver_temp)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.wsgi_app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)\n# secertKey = \"\"\n@app.route('/')\nasync def index():\n    a = await ChatWootController.inforchatwoot()\n    print(a)\n    # conver_temp = await a.filter(account_id= 1, attribute_key= \"status\" , filter_operator= \"Equal to\" , query_operator=None , values = \"12312312312\")\n    # print(conver_temp)\n    # await ChatWootController.process_message(\"Hello World 4\", \"outgoing\",\"91\", None)\n    return \"hello world\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "baseURLAPP",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def baseURLAPP(request, custom_url=None):\n    if custom_url is None:\n        baseurl = request.host_url\n    else:\n        baseurl = request.host_url + custom_url\n    # base_url = baseurl.replace(request.host, f\"{request.host}:{appport}\")\n    return baseurl\ndef find_zaloid_value(data, target_zaloid):\n    \"\"\"\n    Searches the provided JSON data for a conversation with the given 'zaloid'.",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "find_zaloid_value",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def find_zaloid_value(data, target_zaloid):\n    \"\"\"\n    Searches the provided JSON data for a conversation with the given 'zaloid'.\n    Args:\n        data (dict): The JSON data to search.\n        target_zaloid (str): The zaloid value to look for.\n    Returns:\n        dict or None: The conversation dictionary containing the matching zaloid, or None if not found.\n    \"\"\"\n    try:",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_file_type",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_file_type(file_name):\n    mime_type, _ = mimetypes.guess_type(file_name)\n    if mime_type and mime_type.startswith('image/'):\n        return 'image'\n    return 'application/octet-stream'  # Default to binary file type\nALLOWED_EXTENSIONS = {'.pdf', '.doc', '.docx' , '.png' , '.jpeg' , '.jpg'}\nMAX_FILE_SIZE = 5 * 1024 * 1024 \n# async def prepare_file_for_chatwoot(attachments):\n#     files = []\n#     for url in attachments:",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "EventMessageZaloOA",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def EventMessageZaloOA(event_message):\n    if event_message in List_Action_User or event_message in List_Action_anonymous:\n        return \"incoming\"\n    else:\n        return \"outgoing\"\n# async def download_file(url):\n#     async with aiohttp.ClientSession() as session:\n#         async with session.get(url) as response:\n#             if response.status == 200:\n#                 return await response.read()",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_EXTENSIONS",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "ALLOWED_EXTENSIONS = {'.pdf', '.doc', '.docx' , '.png' , '.jpeg' , '.jpg'}\nMAX_FILE_SIZE = 5 * 1024 * 1024 \n# async def prepare_file_for_chatwoot(attachments):\n#     files = []\n#     for url in attachments:\n#         if not url.startswith(\"https://\"):\n#             print(\"url_to_image\")\n#             continue\n#         # if url == 'url_to_image' or url == 'link' :\n#         #     print(\"url_to_image\")",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_FILE_SIZE",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "MAX_FILE_SIZE = 5 * 1024 * 1024 \n# async def prepare_file_for_chatwoot(attachments):\n#     files = []\n#     for url in attachments:\n#         if not url.startswith(\"https://\"):\n#             print(\"url_to_image\")\n#             continue\n#         # if url == 'url_to_image' or url == 'link' :\n#         #     print(\"url_to_image\")\n#         #     return",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_EXTENSIONS",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "ALLOWED_EXTENSIONS = {'.pdf', '.doc', '.docx', '.png', '.jpeg', '.jpg', '.gif', '.tiff', '.tif', '.bmp', '.webp', '.svg', '.ico'}\nMAX_FILE_SIZE = 5 * 1024 * 1024  # 5 MB in bytes\nasync def prepare_file_for_chatwoot(attachments):\n    files = []\n    print(f\"Attachments: {attachments}\")\n    for url in attachments:\n        if not url.startswith(\"https://\"):\n            print(f\"Skipping non-HTTPS URL: {url}\")\n            continue\n        try:",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_FILE_SIZE",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "MAX_FILE_SIZE = 5 * 1024 * 1024  # 5 MB in bytes\nasync def prepare_file_for_chatwoot(attachments):\n    files = []\n    print(f\"Attachments: {attachments}\")\n    for url in attachments:\n        if not url.startswith(\"https://\"):\n            print(f\"Skipping non-HTTPS URL: {url}\")\n            continue\n        try:\n            file_content = await download_file(url)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "List_Action_User",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "List_Action_User = ['user_send_location', 'user_send_image' ,'user_send_link' , 'user_send_text', \n                    'user_send_sticker', 'user_send_gif' ,'user_send_audio' ,\n                    'user_send_video'  , 'user_send_file' , 'user_reacted_message',\n                    \"user_send_business_card\"]\nList_Action_anonymous = ['anonymous_send_location', 'anonymous_send_image' ,'anonymous_send_link' \n                         , 'anonymous_send_text', 'anonymous_send_sticker', \n                         'anonymous_send_gif' ,'anonymous_send_audio' , 'anonymous_send_video'  ,\n                         'anonymous_send_file' , 'anonymous_reacted_message']\ndef EventMessageZaloOA(event_message):\n    if event_message in List_Action_User or event_message in List_Action_anonymous:",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "List_Action_anonymous",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "List_Action_anonymous = ['anonymous_send_location', 'anonymous_send_image' ,'anonymous_send_link' \n                         , 'anonymous_send_text', 'anonymous_send_sticker', \n                         'anonymous_send_gif' ,'anonymous_send_audio' , 'anonymous_send_video'  ,\n                         'anonymous_send_file' , 'anonymous_reacted_message']\ndef EventMessageZaloOA(event_message):\n    if event_message in List_Action_User or event_message in List_Action_anonymous:\n        return \"incoming\"\n    else:\n        return \"outgoing\"\n# async def download_file(url):",
+        "detail": "utils",
+        "documentation": {}
+    }
+]
