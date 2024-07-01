@@ -188,8 +188,7 @@ async def createContant(zalo_id):
     tags_notes_info = user_data.get("tags_and_notes_info", {})
 
     # Format phone
-    phone = f"+{shared_info.get('phone', '')
-                }" if shared_info.get('phone') else ""
+    phone = f"+{shared_info.get('phone', '')}" if shared_info.get('phone') else ""
     mail = shared_info.get("email", "")
     note = tags_notes_info.get("note", "")
     # Await contact creation and return a more informative message
