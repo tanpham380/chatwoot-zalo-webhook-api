@@ -141,6 +141,7 @@ class WootHook:
             }
             filter_value = {
                 "payload": [
+                    {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id},
                     {"attribute_key": "zaloid","filter_operator": "equal_to", "values": zalo_id}
                 ]
             }
