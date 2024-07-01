@@ -222,7 +222,6 @@ class Zalo4rdAppClient:
                 except requests.exceptions.RequestException as e:
                     print(f"Error sending message: {e}")
         else:
-            print("No attachments found")
             Json_format = {
                 "recipient": {
                     "user_id": uid

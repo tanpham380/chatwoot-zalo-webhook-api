@@ -106,7 +106,7 @@ async def zalo_receive():
 
     elif request.method == 'POST':
         data = request.get_json(force=True, silent=True)
-        type_message = EventMessageZaloOA(data.get('event_name', ''))  
+        type_message = EventMessageZaloOA(data.get('event_name', ''))
         print(type_message)
         if type_message == "outgoing":
             return Response("Event received", status=200)
@@ -140,9 +140,9 @@ async def zalo_receive():
                     attachments.append(url)
                 elif attachment_type == "file":
                     message_text += url
-                elif attachment_type in ("link", "location" , "sticker"):
+                elif attachment_type in ("link", "location", "sticker"):
                     message_text += url
-                    
+
                     if attachment_type == "location":
                         location = attachment["payload"].get("coordinates")
                         if location:
@@ -227,7 +227,6 @@ async def receive_mess_from_chatwoot():
             if type_message == "outgoing":
                 # Default to True if 'private' key is missing
                 private_value = data.get('private', True)
-    
 
                 if private_value:  # Check directly if private_value is True
                     return Response("Event received", status=200)
